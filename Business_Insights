@@ -1,0 +1,373 @@
+# HR Analytics — Business Insights
+
+## Executive Summary
+
+The HR Analytics project analyzed **22,214 employee records** to understand workforce composition, employee demographics, hiring patterns, tenure, and employee attrition.
+
+The analysis revealed that the organization has a broad workforce distributed across multiple departments, job roles, demographic groups, and work locations. Employee retention varies across these segments, making it important to evaluate both **termination rates and absolute employee counts** when identifying areas that may require HR attention.
+
+The most notable finding was that **Auditing had the highest termination rate at 23.08%**, while **Marketing had the lowest at 14.57%**. However, Auditing's rate is based on only 52 employees, so the result should be interpreted cautiously.
+
+**Legal emerged as a particularly interesting retention case**, combining a high termination rate of **20.26%** with the lowest department-level average tenure of **14.09 years**.
+
+Engineering requires attention from a workforce-scale perspective. It had the largest workforce at **6,686 employees** and the highest number of terminations at **1,185**, although its termination rate was a more moderate **17.72%**.
+
+---
+
+## 1. Workforce Overview
+
+### Total Employees
+
+**22,214 employees**
+
+The dataset represents a large workforce distributed across 13 departments and multiple job categories.
+
+### Largest Department
+
+**Engineering — 6,686 employees**
+
+Engineering represents the largest employee population in the organization.
+
+### Smallest Department
+
+**Auditing — 52 employees**
+
+Because Auditing has a relatively small employee population, percentage-based metrics should be interpreted carefully.
+
+---
+
+## 2. Gender Distribution
+
+The overall workforce consisted of:
+
+| Gender         | Employees |
+| -------------- | --------: |
+| Male           |     9,328 |
+| Female         |     8,455 |
+| Non-Conforming |       502 |
+
+The workforce is relatively balanced between male and female employees, with a smaller Non-Conforming employee group.
+
+---
+
+## 3. Race/Ethnicity Distribution
+
+The largest race/ethnicity category was:
+
+**White — 6,328 employees**
+
+Other major groups included:
+
+* Two or More Races — 3,648
+* Black or African American — 3,619
+* Asian — 3,562
+* Hispanic or Latino — 2,501
+* American Indian or Alaska Native — 1,327
+* Native Hawaiian or Other Pacific Islander — 1,229
+
+This provides HR with a broad view of workforce diversity and composition.
+
+---
+
+## 4. Age Distribution
+
+The analyzed employee ages ranged from:
+
+**23 to 60 years**
+
+The age distribution was relatively broad rather than concentrated in a single age group.
+
+This suggests that workforce planning and employee development strategies may need to account for employees at different career stages.
+
+---
+
+## 5. Department-Level Attrition
+
+| Department             | Employees | Terminated | Termination Rate |   Avg. Tenure |
+| ---------------------- | --------: | ---------: | ---------------: | ------------: |
+| Auditing               |        52 |         12 |       **23.08%** | **15.23 yrs** |
+| Legal                  |       311 |         63 |       **20.26%** | **14.09 yrs** |
+| Research & Development |     1,084 |        212 |       **19.56%** | **14.82 yrs** |
+| Support                |       954 |        182 |       **19.08%** | **14.77 yrs** |
+| Sales                  |     1,832 |        335 |       **18.29%** | **14.74 yrs** |
+| Product Management     |       641 |        114 |       **17.78%** | **15.01 yrs** |
+| Engineering            |     6,686 |      1,185 |       **17.72%** | **14.85 yrs** |
+| Accounting             |     3,333 |        586 |       **17.58%** | **14.79 yrs** |
+| Services               |     1,686 |        293 |       **17.38%** | **14.73 yrs** |
+| Training               |     1,692 |        291 |       **17.20%** | **14.84 yrs** |
+| Human Resources        |     1,807 |        309 |       **17.10%** | **14.76 yrs** |
+| Business Development   |     1,642 |        275 |       **16.75%** | **14.84 yrs** |
+| Marketing              |       494 |         72 |       **14.57%** | **14.48 yrs** |
+
+---
+
+## 6. Major Retention Findings
+
+### 🔴 Auditing — Highest Termination Rate
+
+Auditing had the highest termination rate:
+
+**23.08%**
+
+There were:
+
+* 52 total employees
+* 12 terminated employees
+* 15.23 years average tenure
+
+Although the termination rate is high, the department's small workforce means the result should not be treated as directly comparable to much larger departments without considering sample size.
+
+---
+
+### 🔴 Legal — Potential Retention Concern
+
+Legal had:
+
+**20.26% termination rate**
+
+and:
+
+**14.09 years average tenure**
+
+This combination is noteworthy because Legal had one of the highest termination rates while also having the lowest average tenure among departments.
+
+This may justify further investigation into employee retention, career progression, workload, compensation, or management factors.
+
+---
+
+### 🟠 Engineering — Largest Workforce Impact
+
+Engineering had:
+
+**6,686 employees**
+
+and:
+
+**1,185 terminations**
+
+This was the highest absolute number of terminations among all departments.
+
+However, its termination rate was:
+
+**17.72%**
+
+This demonstrates an important HR analytics principle:
+
+> A department can have the highest number of employee exits without having the highest attrition rate.
+
+Engineering's large workforce naturally produces a larger absolute number of employee exits.
+
+---
+
+### 🟢 Marketing — Lowest Termination Rate
+
+Marketing had the lowest department-level termination rate:
+
+**14.57%**
+
+The department had:
+
+* 494 employees
+* 72 terminations
+* 14.48 years average tenure
+
+Marketing therefore shows comparatively lower employee turnover based on the available data.
+
+---
+
+## 7. Average Tenure
+
+The overall average tenure calculated during the analysis was:
+
+**14.80 years**
+
+The highest department-level average tenure was:
+
+**Auditing — 15.23 years**
+
+The lowest was:
+
+**Legal — 14.09 years**
+
+An important observation is that high tenure does not automatically mean low turnover.
+
+For example, Auditing had both:
+
+* The highest termination rate
+* The highest average tenure
+
+Therefore, HR should evaluate multiple metrics together rather than using tenure or attrition alone.
+
+---
+
+## 8. Gender Attrition
+
+The gender-level analysis showed:
+
+| Gender         | Employees | Terminated | Termination Rate |
+| -------------- | --------: | ---------: | ---------------: |
+| Female         |    10,321 |      1,866 |       **18.08%** |
+| Male           |    11,288 |      1,960 |       **17.36%** |
+| Non-Conforming |       605 |        103 |       **17.02%** |
+
+Female employees had the highest observed termination rate at:
+
+**18.08%**
+
+while the Non-Conforming group had the lowest:
+
+**17.02%**
+
+The differences are relatively modest, so additional analysis would be required before drawing strong conclusions about gender-based retention.
+
+---
+
+## 9. Work Location Attrition
+
+| Location     | Employees | Terminated | Termination Rate |
+| ------------ | --------: | ---------: | ---------------: |
+| Headquarters |    16,715 |      3,005 |       **17.98%** |
+| Remote       |     5,499 |        924 |       **16.80%** |
+
+Headquarters employees had a termination rate approximately:
+
+**1.18 percentage points higher**
+
+than Remote employees.
+
+The relatively small difference suggests that work location alone may not explain employee attrition.
+
+---
+
+## 10. Hiring Trends
+
+Hiring activity was analyzed from:
+
+**2000 to 2020**
+
+Key observations:
+
+* 2000 had the lowest hiring count: **220**
+* 2018 had the highest hiring count: **1,147**
+* Most years after 2001 showed relatively stable hiring levels
+
+The hiring trend provides useful historical context for understanding workforce growth and organizational expansion.
+
+---
+
+## 11. Top Job Titles
+
+The largest job titles by employee count were:
+
+| Rank | Job Title                     | Employees |
+| ---: | ----------------------------- | --------: |
+|    1 | Research Assistant II         |       754 |
+|    2 | Business Analyst              |       708 |
+|    3 | Human Resources Analyst II    |       613 |
+|    4 | Research Assistant I          |       538 |
+|    5 | Account Executive             |       505 |
+|    6 | Data Visualization Specialist |       457 |
+|    7 | Staff Accountant I            |       441 |
+|    8 | Human Resources Analyst       |       408 |
+|    9 | Software Engineer I           |       397 |
+|   10 | Systems Administrator I       |       374 |
+
+These roles represent some of the largest employee populations and can therefore be useful segments for workforce planning.
+
+---
+
+## 12. High-Termination Job Titles
+
+Several job titles showed comparatively high termination rates.
+
+Examples included:
+
+| Job Title                | Employees | Terminated | Termination Rate |
+| ------------------------ | --------: | ---------: | ---------------: |
+| Financial Analyst        |        68 |         17 |       **25.00%** |
+| Systems Administrator IV |        88 |         22 |       **25.00%** |
+| Customer Success Manager |       214 |         53 |       **24.77%** |
+| Accounting Assistant IV  |        95 |         23 |       **24.21%** |
+| Developer III            |        83 |         20 |       **24.10%** |
+| Junior Trainer           |       181 |         43 |       **23.76%** |
+| Paralegal                |        64 |         15 |       **23.44%** |
+| Internal Auditor         |        52 |         12 |       **23.08%** |
+| Web Developer III        |        71 |         16 |       **22.54%** |
+| Senior Quality Engineer  |       152 |         34 |       **22.37%** |
+
+These roles could be investigated further to determine whether high turnover is associated with factors such as compensation, workload, career progression, management, or hiring practices.
+
+Because some roles have relatively small employee populations, their rates should also be interpreted with caution.
+
+---
+
+# 13. Overall Business Takeaways
+
+### 1. Retention should be evaluated using multiple KPIs
+
+Termination rate, number of terminations, and average tenure provide different perspectives.
+
+### 2. Engineering has the greatest workforce impact
+
+Its **1,185 terminations** make it an important department for workforce planning even though its termination rate is not the highest.
+
+### 3. Legal deserves further investigation
+
+The combination of **20.26% termination rate** and **14.09-year average tenure** makes Legal an interesting retention case.
+
+### 4. Auditing requires cautious interpretation
+
+Its **23.08% termination rate** is the highest, but it is based on only **52 employees**.
+
+### 5. Marketing demonstrates relatively lower turnover
+
+Marketing recorded the lowest department termination rate at **14.57%**.
+
+### 6. Work location has a relatively small difference
+
+The termination rate difference between Headquarters and Remote employees was approximately **1.18 percentage points**.
+
+### 7. Role-level analysis can uncover hidden retention issues
+
+Certain job titles showed termination rates above 20%, suggesting that department-level analysis alone may not reveal all potential retention risks.
+
+---
+
+# 14. Recommended HR Actions
+
+Based on the findings, HR could:
+
+* Investigate the reasons behind high turnover in Legal and selected high-turnover job roles.
+* Conduct deeper analysis of Engineering because of its high absolute number of employee exits.
+* Review employee experience, compensation, workload, career progression, and management practices in high-turnover roles.
+* Monitor both termination rate and average tenure together.
+* Segment future analysis by department, job title, gender, location, and hiring year.
+* Build recurring Power BI reporting to monitor changes in workforce and attrition KPIs over time.
+
+---
+
+# 15. Data Quality Consideration
+
+The source dataset contains termination dates extending beyond the intended historical analysis period.
+
+These future-dated records were not artificially changed in the source data.
+
+For the Power BI termination trend visualization, the analysis period was restricted to **31 December 2025** so that future-dated records would not visually distort the historical trend.
+
+This highlights an important part of the analytical process:
+
+> Data quality should be evaluated before interpreting a visualization or business trend.
+
+---
+
+# 16. Final Conclusion
+
+The HR Analytics project demonstrates how raw employee data can be transformed into actionable business insights through SQL and Power BI.
+
+The analysis shows that employee attrition is not uniform across the organization. Differences exist across departments, job titles, gender groups, and work locations.
+
+The most important insight is that HR decisions should not rely on a single metric. **Termination rate, employee count, and tenure should be considered together** to distinguish between high percentage turnover in small teams and high workforce impact in large departments.
+
+The project provides a foundation for ongoing HR monitoring through an interactive Power BI dashboard and demonstrates practical skills in:
+
+**Data Cleaning → SQL Analysis → Advanced SQL → KPI Development → Power BI → Business Insights**
